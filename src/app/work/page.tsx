@@ -1,8 +1,9 @@
-import Image from "next/image";
+
 {
   /*import navbar in our project */
 }
 import Navbar from "../components/navbar";
+import Image from "next/image";
 {
   /* create a work section for our website */
 }
