@@ -65,8 +65,8 @@ export default function Home() {
             <div className="md:w-1/2 flex justify-center ">
               <Image
                 src="/images/code.jpg"
-                width={48}
-                height={48}
+                width={250}
+                height={250}
                 alt="Profile"
                 className="  object-cover rounded-full "
               />
