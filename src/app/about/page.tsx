@@ -2,6 +2,7 @@
   /* import navbar from components / navbar */
 }
 import Navbar from "../components/navbar";
+import Image from "next/image";
 {
   /* create  about page */
 }
@@ -14,10 +15,13 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center">
           {/* image styling ,size,rounded */}
           <div className="md:w-1/3 flex justify-center">
-            <img
-              src="./images/code.jpg"
+            <Image
+          
+            src= "/images/code.jpg"
+              width={200}
+              height={200}
               alt="Profile"
-              className="w-48 h-48 object-cover rounded-full border-4 border-blue-500"
+              className=" object-cover rounded-full border-4 border-blue-500"
             />
           </div>
           {/* content styleing ,text size color font*/}
