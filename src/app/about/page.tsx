@@ -15,7 +15,12 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center">
           {/* image styling ,size,rounded */}
           <div className="md:w-1/3 flex justify-center">
+<<<<<<< HEAD
           <Image
+=======
+            <Image
+          
+>>>>>>> 9e5e41cf70dd636088349e72b31b0eb61feaf7ea
             src= "/images/code.jpg"
               width={200}
               height={200}
