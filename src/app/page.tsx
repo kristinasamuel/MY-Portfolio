@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-center items-center text-center min-h-screen 
                         md:text-left px-20">
             <div className="md:w-1/3 mb-8 md:mb-0 md:pr-8 px- 7 ">
-              <h1 className="text-3xl md:text-5xl mb-4">Hi I'm kristina,</h1>
+              <h1 className="text-3xl md:text-5xl mb-4">Hi I'm Kristina,</h1>
               {/* ~~~~~ use type writer to give style to h1,give color,font and margin ~~~~~*/}
 
               <h1 className=" text-yellow-400 text-3xl md:text-5xl mb-4">
@@ -68,7 +68,7 @@ export default function Home() {
                 width={48}
                 height={48}
                 alt="Profile"
-                className=" md:w-64 md:h-64 object-cover rounded-full "
+                className="  object-cover rounded-full "
               />
             </div>
           </div>

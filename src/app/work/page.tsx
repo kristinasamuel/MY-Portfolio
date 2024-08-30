@@ -29,7 +29,7 @@ export default function Work() {
           <div className="p-b text-center">
             <h3 className="text-lg font-black">CLI-Based Countdown Timer</h3>
             <p className="mt-2 text-sm text-gray-500 leading-relaxed">
-              A CLI-based countdown timer is a simple command-line application
+              CLI-based countdown timer is a simple command-line application
               that counts down from a specified time, providing real-time
               updates directly in the terminal. Users can set the duration in
               seconds,and the timer will decrement the time, often displaying
@@ -55,7 +55,7 @@ export default function Work() {
               CLI-Based Number Guessing Game
             </h3>
             <p className="mt-2 text-sm text-gray-500 leading-relaxed">
-              A CLI-based number guessing game is a simple 
+              CLI-based number guessing game is a simple 
               text-based application that challenges the player to guess a
               randomly generated number within a specified range. The game
               provides feedback after each guess, indicating whether the guess

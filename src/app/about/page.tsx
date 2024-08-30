@@ -15,8 +15,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center">
           {/* image styling ,size,rounded */}
           <div className="md:w-1/3 flex justify-center">
-            <Image
-          
+          <Image
             src= "/images/code.jpg"
               width={200}
               height={200}
@@ -29,8 +28,8 @@ export default function About() {
             <h1 className="text-4xl font-bold text-blue-500 mb-4">Kristina</h1>
             <p className="text-gray-700 text-lg mb-4">
               Hi, I'm Kristina! A passionate frontend developer who loves to
-              create beautiful and functional web applications. I have a knack
-              for design and a love for code. I believe in continuous learning
+              create beautiful and functional web applications.I have a knack
+              for design and a love for code.I believe in continuous learning
               and growing with every project I undertake.
             </p>
             <p className="text-gray-700 text-lg">
