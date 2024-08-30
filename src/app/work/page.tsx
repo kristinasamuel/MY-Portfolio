@@ -3,6 +3,7 @@
   /*import navbar in our project */
 }
 import Navbar from "../components/navbar";
+import Image from "next/image";
 {
   /* create a work section for our website */
 }
@@ -17,10 +18,12 @@ export default function Work() {
                   overflow-hidden"
         >
           <div className="min-h-[200px]">
-            <img
-              src="./images/counter.jpg"
+            <Image
+              src="/images/counter.jpg"
+              width={350}
+              height={300}
               alt="myimage"
-              className="w-full rounded-lg"
+              className=" rounded-lg"
             />
           </div>
           <div className="p-b text-center">
@@ -39,8 +42,10 @@ export default function Work() {
         </div>
         <div className="bg-white border-solid p-2 w-full max-w-xs rounded-lg font-sans overflow-hidden">
           <div className="min-h-[200px]">
-            <img
-              src="./images/guessing.jpg"
+            <Image
+              src="/images/guessing.jpg"
+              width={300}
+              height={300}
               alt="myimage"
               className="w-full rounded-lg"
             />
@@ -64,8 +69,10 @@ export default function Work() {
         </div>
         <div className="bg-white border-solid p-2 w-full max-w-xs rounded-lg font-sans overflow-hidden">
           <div className="min-h-[200px]">
-            <img
-              src="./images/atm.jpg"
+            <Image
+              src="/images/atm.jpg"
+              height={300}
+              width={300}
               alt="myimage"
               className="w-full rounded-lg"
             />
