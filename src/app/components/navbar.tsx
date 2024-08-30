@@ -5,6 +5,7 @@ import Link from "next/link";
   /* ~~~~~ import icons from react icon library ~~~~~ */
 }
 import { FaBars, FaTimes } from "react-icons/fa";
+import { MdOutput } from "react-icons/md";
 {
   /*~~~~ create navbar to use in our website ~~~~*/
 }
@@ -12,6 +13,7 @@ export default function Navbar() {
   const [isNavbar, setIsNavbar] = useState(false);
 
   const toggleMenu = () => setIsNavbar(!isNavbar);
+    output : "export";
 
   return (
     <>

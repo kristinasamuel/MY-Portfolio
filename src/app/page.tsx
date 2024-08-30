@@ -3,7 +3,6 @@
   /*~~~~ import navbar from components folder ~~~~~*/
 }
 import Navbar from "./components/navbar";
-import Image from "next/image";
 {
   /* import type effect to give style to h1*/
 }
@@ -15,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      {/*~~~~~~ give background color to screen ~~~~~~*/}
+      {/*~~~~~~ give background color to screen ~~~~~~*/ }
       <div className="bg-red-400 ">
         <div>
           {/*~~~~~ display text in center , padding,margin,flex and color ~~~~~*/}
@@ -64,7 +63,7 @@ export default function Home() {
             {/* image styling ,height,width  */}
             <div className="md:w-1/2 flex justify-center ">
               <img
-                src="images/code.jpg"
+                src="./images/code.jpg"
                 alt="Profile"
                 className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full "
               />

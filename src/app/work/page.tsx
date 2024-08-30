@@ -3,7 +3,6 @@
   /*import navbar in our project */
 }
 import Navbar from "../components/navbar";
-import Image from "next/image";
 {
   /* create a work section for our website */
 }
@@ -19,7 +18,7 @@ export default function Work() {
         >
           <div className="min-h-[200px]">
             <img
-              src="images/counter.jpg"
+              src="./images/counter.jpg"
               alt="myimage"
               className="w-full rounded-lg"
             />
@@ -41,7 +40,7 @@ export default function Work() {
         <div className="bg-white border-solid p-2 w-full max-w-xs rounded-lg font-sans overflow-hidden">
           <div className="min-h-[200px]">
             <img
-              src="images/guessing.jpg"
+              src="./images/guessing.jpg"
               alt="myimage"
               className="w-full rounded-lg"
             />
@@ -66,7 +65,7 @@ export default function Work() {
         <div className="bg-white border-solid p-2 w-full max-w-xs rounded-lg font-sans overflow-hidden">
           <div className="min-h-[200px]">
             <img
-              src="images/atm.jpg"
+              src="./images/atm.jpg"
               alt="myimage"
               className="w-full rounded-lg"
             />
